@@ -1,0 +1,2 @@
+Get-process -Name "chrome"
+ [math]::Round($chromePorcess.WorkingSet / 1MB, 2)
